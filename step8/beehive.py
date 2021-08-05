@@ -1,3 +1,4 @@
+
 def beehive(n):
     cnt = 1
     distance = 1
@@ -13,3 +14,14 @@ def beehive(n):
 n = int(input())
 result = beehive(n)
 print(result)
+
+
+
+#input
+'''
+13
+'''
+#output
+'''
+3
+'''
