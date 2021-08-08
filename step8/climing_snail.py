@@ -9,3 +9,13 @@ def climing(a,b,v):
 a,b,v = map(int,input().split())
 result = climing(a,b,v)
 print(result)
+
+
+#input
+'''
+2 1 5
+'''
+#output
+'''
+4
+'''
