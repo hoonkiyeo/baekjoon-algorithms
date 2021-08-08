@@ -1,6 +1,8 @@
 def climing(a,b,v):
-
     cnt_day = (v-b) / (a-b)
+
+    if a==b:
+        print("cannot determine the number of days it needs to climb to the top")
 
     if cnt_day == int(cnt_day):
         return int(cnt_day)
