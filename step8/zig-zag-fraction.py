@@ -6,6 +6,7 @@
 x = int(input())
 line = 1
 
+
 while x > line:
     x -= line
     line += 1

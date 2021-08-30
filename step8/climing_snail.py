@@ -3,11 +3,13 @@ def climing(a,b,v):
 
     if a==b:
         print("cannot determine the number of days it needs to climb to the top")
+        print("a and b must be different")
 
     if cnt_day == int(cnt_day):
         return int(cnt_day)
     else:
         return int(cnt_day) + 1
+
 a,b,v = map(int,input().split())
 result = climing(a,b,v)
 print(result)

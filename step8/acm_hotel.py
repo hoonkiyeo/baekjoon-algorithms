@@ -1,19 +1,18 @@
 
-
-#h = story of the hotel
+#h = total floors of the hotel
 #w = number of rooms on each floor
-#n = Nth guest
+#n = n_th guest (based on arrival time)
+import sys
 
 rep = int(input())
 for i in range(rep):
-    h,w,n = map(int,input().split())
+    h,w,n = map(int,sys.stdin.readline().split())
     if n % h != 0:
         floor = n % h
         num = (n//h) + 1
     else:
         floor = h
         num = n // h
-
     assigned_room = floor * 100 + num
     print(assigned_room)
 
