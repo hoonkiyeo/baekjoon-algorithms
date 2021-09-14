@@ -23,3 +23,19 @@ for _ in range(rep):
         cnt= distance
 
     print(cnt)
+
+
+#input
+'''
+3
+0 3
+1 5
+45 50
+'''
+
+#output
+'''
+3
+3
+4
+'''
