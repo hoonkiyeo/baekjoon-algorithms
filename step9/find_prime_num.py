@@ -12,7 +12,7 @@ def is_prime(num):
             return False
     return True
 for num in num_list:
-    if is_prime(num) == True:
+    if is_prime(num):
         cnt += 1
 print(cnt)
 
