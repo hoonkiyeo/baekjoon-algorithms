@@ -4,6 +4,7 @@
     <list default="true" id="f7c95641-5268-40a2-b4dd-9eba1776ee19" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goldbach-conjecture.py" beforeDir="false" afterPath="$PROJECT_DIR$/goldbach-conjecture.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../step10" />
   </component>
-  <component name="RunManager" selected="Python.taxicab_geometry">
+  <component name="RunManager" selected="Python.goldbach-conjecture">
     <configuration name="escaping_rectangle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="step9" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.goldbach-conjecture" />
         <item itemvalue="Python.taxicab_geometry" />
         <item itemvalue="Python.right_triangle" />
         <item itemvalue="Python.fourth_coordinates" />
         <item itemvalue="Python.escaping_rectangle" />
-        <item itemvalue="Python.goldbach-conjecture" />
       </list>
     </recent_temporary>
   </component>
