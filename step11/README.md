@@ -1,4 +1,4 @@
-### Brute-force Algorithms
+# Brute-force Algorithms
 
 ---
 - There are 5 algorithm problems in step11.
