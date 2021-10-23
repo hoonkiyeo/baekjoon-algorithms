@@ -1,19 +1,20 @@
+
 import sys
-rep = int(input())
-w_h_list = [] #weight and height information list
+n = int(input())
+info_list = []
 
-for i in range(rep):
-    weight,height = map(int, sys.stdin.readline().split())
-    w_h_list.append((weight,height))
+for i in range(n):
+    w,h = map(int, sys.stdin.readline().split()) #weight and height
+    info_list.append((w,h)) #append weight and height of each person
 
-for i in w_h_list:
+for info in info_list:
     rank = 1
-    for j in w_h_list:
-        if i[0] != j[0] and i[1] != j[1]:
-            if i[0] < j[0] and i[1] < j[1]: #i[0] and j[0] = weight, i[1] and j[1] = height
+    for info2 in info_list:
+        #comparing info and info2
+        if info[0] != info2[0] and info[1] != info2[1]:
+            if info[0] < info2[0] and info[1] < info2[1]:
                 rank += 1
     print(rank)
-
 
 
 
