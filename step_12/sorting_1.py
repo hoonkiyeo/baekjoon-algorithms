@@ -1,5 +1,5 @@
 # time complexity of O(N^2)
-n = int(input())
+n = int(input()) #1 ≤ n ≤ 1000
 num_list = []
 for i in range(n):  # O(N)
     num_list.append(int(input()))
