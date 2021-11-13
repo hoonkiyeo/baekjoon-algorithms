@@ -9,6 +9,10 @@ def find_min(equation):
             result -= int(j)
     return result
 
+
+
+
+
 if __name__ == "__main__":
     equation = sys.stdin.readline().split("-")
     print(find_min(equation))

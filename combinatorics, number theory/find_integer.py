@@ -26,3 +26,16 @@ for i in range(2, max(num_list)):
 for ans in final_list:
     print(ans, end=" ")
 
+
+
+
+
+
+
+
+
+
+
+
+
+
