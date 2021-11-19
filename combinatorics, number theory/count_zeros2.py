@@ -1,27 +1,14 @@
 import sys
-import math
 
-n, k = map(int, input().split())
-dp = [[0] * 1 for i in range(1001)]
-dp[1].append(1)
+n,m = map(int,sys.stdin.readline().split())
 
 
-for i in range(2, 1001):
-    for j in range(1, i + 1):
-        if j == 1:
-            dp[i].append(1)
-        elif j == i:
-            dp[i].append(1)
-        else:
-            dp[i].append(dp[i - 1][j - 1] + dp[i - 1][j])
+def count_div(k,n):
+    result = 0
+    while k != 0:
+        k = k // n
+        result += k
+    return result
 
-coeff = dp[n+1][k+1]
 
-cnt = 0
-for i in str(coeff)[::-1]:
-    if i == '0':
-        cnt += 1
-    if i != '0':
-        break
-
-print(cnt)
+print(min(count_div(n,2)-count_div(m,2)-count_div(n-m,2), count_div(n,5)-count_div(m,5)-count_div(n-m,5)))
