@@ -1,6 +1,6 @@
 import sys
 
-N,M,K = map(int, sys.stdin.readline().split())
+N,M,K = map(int, sys.stdin.readline().split()) # M <= 10,000
 num_list = list(map(int, sys.stdin.readline().split()))
 
 num_list.sort()

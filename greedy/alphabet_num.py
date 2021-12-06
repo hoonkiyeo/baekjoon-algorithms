@@ -1,7 +1,7 @@
 import sys
 
-n = int(input())
-sum = 0
+n = int(sys.stdin.readline())
+
 
 for _ in range(n):
-    word = 
+    word = sys.stdin.readline()
