@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
 
 x = int(input())
 y = int(input())
@@ -18,23 +13,3 @@ elif x > 0 and y < 0:
 else:
     quadrant = "origin"
 print(quadrant)
-
-#input
-'''
-12
-5
-'''
-#output
-'''
-1
-'''
-#input2
-'''
--1
--5
-'''
-#output2
-'''
-3
-'''
-
