@@ -1,7 +1,10 @@
 import sys
 
-n = int(sys.stdin.readline())
-
+n = int(input())
+alpha_dic = {}
+input_list = []
 
 for _ in range(n):
-    word = sys.stdin.readline()
+    input_list.append(sys.stdin.readline())
+
+
