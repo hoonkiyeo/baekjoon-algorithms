@@ -2,27 +2,25 @@ import sys
 
 n = int(input())
 word_list = []
-dic = {}
+word_dic = {}
 ans = 0
 
 for _ in range(n):
     word_list.append(sys.stdin.readline().rstrip())
 
 for words in word_list:
-    size = len(words)
-    for word in words:
-        if word not in dic:
-            dic[word] = (10**(size-1))
+    size = len(words) - 1
+    for alphabet in words:
+        if not alphabet in word_dic:
+            word_dic[alphabet] = (10 ** size)
         else:
-            dic[word] += (10**(size-1))
+            word_dic[alphabet] += (10**size)
         size -= 1
 
-value_list = list(dic.values())
+value_list = list(word_dic.values())
 value_list.sort(reverse=True)
 
-num = 9
-for value in value_list:
-    ans += value * num
-    num -= 1
+for i in range(len(value_list)):
+    ans += (value_list[i] * (9 - i))
 
 print(ans)
